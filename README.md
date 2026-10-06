@@ -23,19 +23,21 @@ This public APK omits original game assets. It is an update for an existing Cast
 
 **Do not uninstall the existing game or clear its storage.** Back up important worlds, then install the APK as an in-place update. The public APK's signing certificate matches the audited v0.37 APK.
 
-**Already on the corrected v0.37?** Use the in-game update flow to download and verify v0.38, then approve Android's installation prompt.
+**In-game update blocker in v0.37/v0.38:** these published builds can report “Update compatibility checker is unavailable” because their Java/native loader does not bind the checker correctly. They cannot apply that loader repair through their own in-game checker. Once a corrected APK is built and verified, install it manually **in place with the same signing key**. Do not uninstall, clear app data or delete original assets.
 
-**Still on v0.36? Manually sideload v0.38 once as an in-place update.** The v0.36 original-asset filename parser rejects semicolons in required filenames, blocking that version's in-game updater. The corrected parser is included in v0.37 and later. Do not uninstall first.
+**v0.39 is currently a source candidate only. No v0.39 public APK or feed has been published.** v0.38 remains the latest published release while the corrected build and device checks are pending.
+
+**Still on v0.36?** That build also has the earlier original-asset semicolon-parser issue. It likewise needs a same-key, manual in-place corrected installation. v0.37/v0.38 include the semicolon fix but still have the separate loader defect above. Do not uninstall first.
 
 Only the named APK in the release assets is installable. GitHub-generated source archives contain this public repository's documentation and metadata.
 
 ## In-game updates and testing status
 
-The app includes a public-feed check, APK download and verification, and an Android-confirmed installation flow. The corrected v0.37 can use this flow to update to v0.38, with the player approving Android installation.
+The app includes a public-feed check, APK download and verification, and an Android-confirmed installation flow. The confirmed loader defect blocks native compatibility verification in the currently published v0.37/v0.38 builds. After a corrected APK is manually installed, the repaired end-to-end in-game flow still needs confirmation on a Quest; Android permission and installation prompts remain explicit player actions.
 
-The submitted v0.38 APK passed signature and public-content checks, and the actual v0.37 production feed/APK preflight and native checklist checks accepted it. Native inspection confirmed the new editor/support-hand behavior.
+The submitted v0.38 APK passed signature and public-content checks, and host production feed/APK preflight and direct native checklist checks accepted it. Those checks did not exercise the failing Java-to-native runtime lookup. Native inspection confirmed the new editor/support-hand behavior.
 
-This exact APK still requires Quest testing. Visual alignment, menu interaction, settings persistence, existing-world preservation and end-to-end Android installation remain unverified on a Quest.
+The compatibility-checker failure was reported on a Quest. Full acceptance of visual alignment, menu interaction, settings persistence, existing-world preservation and end-to-end Android installation is still outstanding.
 
 The [v0.37 release](https://github.com/itssnotTristan/CastleMinerZVR-Updates/releases/tag/v0.37) remains available unchanged.
 
