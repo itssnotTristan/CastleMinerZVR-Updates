@@ -6,32 +6,38 @@ Original CastleMiner Z by DigitalDNA Games. The mod's source is maintained priva
 
 ## Current update
 
-[v0.37: Item fit and menu update](https://github.com/itssnotTristan/CastleMinerZVR-Updates/releases/tag/v0.37) is available for existing installations.
+[v0.38: Item editor and RPG support-hand update](https://github.com/itssnotTristan/CastleMinerZVR-Updates/releases/tag/v0.38) is available for existing installations.
 
-- APK: `CastleMinerZVR-Quest2-v0.37-PublicUpdate.apk`
+- APK: `CastleMinerZVR-Quest2-v0.38-PublicUpdate.apk`
 - Package: `org.codex.castleminerzvr`
-- Version name: `0.37-item-fit-menu-candidate`
-- Android version code: `38`
-- Download size: `10797047` bytes
-- SHA-256: `915b8d36d27f00f1223dc66e085dbbd18b99c6bf3f61aae402afb7905172ade3`
+- Version name: `0.38-item-editor-support-candidate`
+- Android version code: `39`
+- Download size: `10813439` bytes
+- SHA-256: `24db256b2f015af470938bdf286d741257b30a9bde7c026a459ac3893a407abd`
 
-The release includes held-item fit controls and calibrated poses, SMG scale changes, RPG support-hand adjustments, PC-style menu/world pickers, credits and an original-asset filename parsing fix. See the release notes for details and validation limits.
+The release adds separate Size, Position and Rotation pages for the held-item editor; RPG left-support-hand position and rotation editing with saved settings and export; a clickable Username button at bottom left; and Options in the Username button's former menu position. See the release notes for details and validation limits.
 
 ## Installation requirements
 
 This public APK omits original game assets. It is an update for an existing CastleMiner Z VR installation with the required game content already extracted, not a fresh-install package. Players need their own legally obtained original game content.
 
-**Do not uninstall the existing game or clear its storage.** Back up important worlds, then install the APK as an in-place update. The public APK's signing certificate matches the checked v0.36 APK.
+**Do not uninstall the existing game or clear its storage.** Back up important worlds, then install the APK as an in-place update. The public APK's signing certificate matches the audited v0.37 APK.
 
-**Coming from v0.36? Manually sideload v0.37 once.** The v0.36 original-asset filename parser rejects semicolons in required filenames, blocking this first update through that version's in-game updater. The v0.37 build fixes the parser.
+**Already on the corrected v0.37?** Use the in-game update flow to download and verify v0.38, then approve Android's installation prompt.
+
+**Still on v0.36? Manually sideload v0.38 once as an in-place update.** The v0.36 original-asset filename parser rejects semicolons in required filenames, blocking that version's in-game updater. The corrected parser is included in v0.37 and later. Do not uninstall first.
 
 Only the named APK in the release assets is installable. GitHub-generated source archives contain this public repository's documentation and metadata.
 
 ## In-game updates and testing status
 
-The app includes a public-feed check, APK download and verification, and an Android-confirmed installation flow. After the one-time manual v0.36-to-v0.37 update, future compatible releases can use this flow, with the player approving Android installation.
+The app includes a public-feed check, APK download and verification, and an Android-confirmed installation flow. The corrected v0.37 can use this flow to update to v0.38, with the player approving Android installation.
 
-This exact APK and the end-to-end installation flow still require Quest testing. Host/static checks and APK signature, metadata and public-content checks were completed; Quest runtime behavior, visual alignment, existing-world preservation and on-headset installation remain unverified.
+The submitted v0.38 APK passed signature and public-content checks, and the actual v0.37 production feed/APK preflight and native checklist checks accepted it. Native inspection confirmed the new editor/support-hand behavior.
+
+This exact APK still requires Quest testing. Visual alignment, menu interaction, settings persistence, existing-world preservation and end-to-end Android installation remain unverified on a Quest.
+
+The [v0.37 release](https://github.com/itssnotTristan/CastleMinerZVR-Updates/releases/tag/v0.37) remains available unchanged.
 
 ## Update feed
 
