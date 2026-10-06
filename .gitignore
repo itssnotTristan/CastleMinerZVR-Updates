@@ -1,0 +1,10 @@
+# Default-deny public repository. New public files need explicit review.
+*
+!.gitignore
+!README.md
+!CREDITS.txt
+!PUBLICATION-CHECKLIST.md
+!examples/
+examples/*
+!examples/cmz-update.example.json
+# Add !cmz-update.json only after an approved real APK release is ready.
