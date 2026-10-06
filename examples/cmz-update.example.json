@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "packageName": "org.codex.castleminerzvr",
+  "versionCode": 37,
+  "versionName": "0.36-example",
+  "tag": "v0.36-example",
+  "apkAsset": "CastleMinerZVR-Quest2-v0.36.apk",
+  "apkSha256": "0000000000000000000000000000000000000000000000000000000000000000"
+}
