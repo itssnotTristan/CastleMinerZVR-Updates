@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "packageName": "org.codex.castleminerzvr",
-  "versionCode": 48,
-  "versionName": "0.47-ui-magazine-ultra-candidate",
-  "tag": "v0.47",
-  "apkAsset": "CastleMinerZVR-Quest2-v0.47-PublicUpdate.apk",
-  "apkSha256": "0996bcdc210317c8a9c441c266c1126fc7720ae6e77847cd6d7da5d1d925cf24"
+  "versionCode": 50,
+  "versionName": "0.49-startup-stack-hotfix",
+  "tag": "v0.49",
+  "apkAsset": "CastleMinerZVR-Quest2-v0.49-PublicUpdate.apk",
+  "apkSha256": "499c0069a1b90c3e6cf1101a949d20e1b993bb08b58cee7dc11df23e16804bb5"
 }
