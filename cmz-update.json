@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "packageName": "org.codex.castleminerzvr",
-  "versionCode": 46,
-  "versionName": "0.45-ultra-materials-candidate",
-  "tag": "v0.45",
-  "apkAsset": "CastleMinerZVR-Quest2-v0.45-PublicUpdate.apk",
-  "apkSha256": "3038000fea8f7774745011320ccfceb552016c14fcce6ba4f70c2267a65c978b"
+  "versionCode": 47,
+  "versionName": "0.46-ultra-recovery-candidate",
+  "tag": "v0.46",
+  "apkAsset": "CastleMinerZVR-Quest2-v0.46-PublicUpdate.apk",
+  "apkSha256": "62303c2acba605cd63f322c26a67f57fb6d7aabee9635a17a27338897bdf6663"
 }
