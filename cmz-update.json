@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "packageName": "org.codex.castleminerzvr",
-  "versionCode": 49,
-  "versionName": "0.48-worlds-items-loading-candidate",
-  "tag": "v0.48",
-  "apkAsset": "CastleMinerZVR-Quest2-v0.48-PublicUpdate.apk",
-  "apkSha256": "a08f3175475ffc6384fe686b7e84efa4d9b4c51b5db48e75e3abd3529402591b"
+  "versionCode": 48,
+  "versionName": "0.47-ui-magazine-ultra-candidate",
+  "tag": "v0.47",
+  "apkAsset": "CastleMinerZVR-Quest2-v0.47-PublicUpdate.apk",
+  "apkSha256": "0996bcdc210317c8a9c441c266c1126fc7720ae6e77847cd6d7da5d1d925cf24"
 }
