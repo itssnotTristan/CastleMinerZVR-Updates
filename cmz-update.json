@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "packageName": "org.codex.castleminerzvr",
-  "versionCode": 42,
-  "versionName": "0.41-category-fit-pickup-candidate",
-  "tag": "v0.41",
-  "apkAsset": "CastleMinerZVR-Quest2-v0.41-PublicUpdate.apk",
-  "apkSha256": "8322ffb43fdfcad1359d037c10b01ceb8aa65fe421c03e507d2d2b72ee5f2de9"
+  "versionCode": 43,
+  "versionName": "0.42-customization-eight-player-candidate",
+  "tag": "v0.42",
+  "apkAsset": "CastleMinerZVR-Quest2-v0.42-PublicUpdate.apk",
+  "apkSha256": "544127ed49794ba337a833859a3ef2479efa96ace5b7708fd92350aa7e3fab3a"
 }
