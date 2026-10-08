@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "packageName": "org.codex.castleminerzvr",
-  "versionCode": 51,
-  "versionName": "0.50-native-materials-recovery",
-  "tag": "v0.50",
-  "apkAsset": "CastleMinerZVR-Quest2-v0.50-PublicUpdate.apk",
-  "apkSha256": "e30836f322ecce98e93779b78b2a38d864cb9f4774a490164742e4680c7c80b2"
+  "versionCode": 52,
+  "versionName": "0.51-classic-materials",
+  "tag": "v0.51",
+  "apkAsset": "CastleMinerZVR-Quest2-v0.51-PublicUpdate.apk",
+  "apkSha256": "6fe55e18955de79d3c567ede0b689b3b45aa1198f284456eea93b7b477e8b459"
 }
