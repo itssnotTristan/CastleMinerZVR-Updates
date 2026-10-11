@@ -55,3 +55,8 @@ Each entry must match a published, non-draft, non-prerelease release and a nonem
 - Reviewed, approved asset-free patch files
 
 Original CastleMiner Z game assets, complete private APKs, signing keys, credentials, personal worlds and private validation logs must not be published here. An asset-free patch ZIP alone does not satisfy the APK update-feed contract.
+
+
+## Matching PC and Quest v0.58
+
+[Downloads and release notes](https://github.com/itssnotTristan/CastleMinerZ-PCVR/releases/tag/v0.58-public-beta) include the PC drag-and-drop package and standalone Quest Setup ZIP. Quest players: extract the complete setup ZIP, open START-HERE.html, then run Setup Quest.cmd on the Windows PC containing your Steam installation. [Read the Quest installation manual](https://github.com/itssnotTristan/CastleMinerZ-PCVR/blob/main/QUEST-INSTALL.md). The APK alone omits original game content; setup imports and verifies your own files. Both platforms use shared-v0.58, version code 61. Physical v0.58 headset and different-home testing remain pending.

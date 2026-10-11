@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "packageName": "org.codex.castleminerzvr",
-  "versionCode": 52,
-  "versionName": "0.51-classic-materials",
-  "tag": "v0.51",
-  "apkAsset": "CastleMinerZVR-Quest2-v0.51-PublicUpdate.apk",
-  "apkSha256": "6fe55e18955de79d3c567ede0b689b3b45aa1198f284456eea93b7b477e8b459"
+  "versionCode": 61,
+  "versionName": "0.58-shared-gameplay",
+  "tag": "v0.58",
+  "apkAsset": "CastleMinerZVR-Quest2-v0.58-PublicUpdate.apk",
+  "apkSha256": "24e87dbc3c88002e565f8c7a0ea8efcce78530eb9ea9268af8582197f634743d"
 }

@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "packageName": "org.codex.castleminerzvr.pc",
+  "platform": "windows-x64",
+  "versionCode": 61,
+  "versionName": "0.58-shared-gameplay",
+  "tag": "v0.58",
+  "zipAsset": "CastleMinerZ-PCVR-v0.58-CodeUpdate.zip",
+  "zipSha256": "acb2e4d148a371b629415a93f2f602c151ef9ef66956386c4fbf3da353b8003f"
+}
