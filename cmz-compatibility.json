@@ -5,19 +5,19 @@
   "contentFingerprint": "15070507204261208425",
   "guestProgressVersion": 2,
   "itemInstanceVersion": 1,
-  "tag": "v0.58",
+  "tag": "v0.58.1",
   "platforms": {
     "quest": {
-      "versionCode": 61,
-      "versionName": "0.58-shared-gameplay",
-      "asset": "CastleMinerZVR-Quest2-v0.58-PublicUpdate.apk",
-      "sha256": "24e87dbc3c88002e565f8c7a0ea8efcce78530eb9ea9268af8582197f634743d"
+      "versionCode": 62,
+      "versionName": "0.58.1-installer-hud",
+      "asset": "CastleMinerZVR-Quest2-v0.58.1-PublicUpdate.apk",
+      "sha256": "a8ef28f26544ac415f0303c897704b0919ee3cf9f39f23fa60122aaa5a38674b"
     },
     "pc": {
       "versionCode": 61,
       "versionName": "0.58-shared-gameplay",
-      "asset": "CastleMinerZ-PCVR-v0.58-CodeUpdate.zip",
-      "sha256": "acb2e4d148a371b629415a93f2f602c151ef9ef66956386c4fbf3da353b8003f"
+      "asset": "CastleMinerZ-PCVR-v0.58.1-SetupCandidate.zip",
+      "sha256": "6eca2aa58b9551a27ca7c0ed59d18d78b64a935023ee3c8bc7d66df7d8e59530"
     }
   }
 }
