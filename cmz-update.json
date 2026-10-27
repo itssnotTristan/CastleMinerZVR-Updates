@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "packageName": "org.codex.castleminerzvr",
-  "versionCode": 62,
-  "versionName": "0.58.1-installer-hud",
-  "tag": "v0.58.1",
-  "apkAsset": "CastleMinerZVR-Quest2-v0.58.1-PublicUpdate.apk",
-  "apkSha256": "a8ef28f26544ac415f0303c897704b0919ee3cf9f39f23fa60122aaa5a38674b"
+  "versionCode": 63,
+  "versionName": "0.58.3-quest3-pc-eye",
+  "tag": "v0.58.3",
+  "apkAsset": "CastleMinerZVR-Quest2-v0.58.3-PublicUpdate.apk",
+  "apkSha256": "dc689ce80f2abbbca314b74f707de8717d172058142a587fcc63c8edc7e9f7bb"
 }

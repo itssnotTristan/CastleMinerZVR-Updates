@@ -2,6 +2,24 @@
 
 CastleMiner Z VR mod by ItssnotTristan.
 
+
+## v0.58.3: PC rendering and Quest 3
+
+[Matching PC/Quest downloads](https://github.com/itssnotTristan/CastleMinerZVR-Updates/releases/tag/v0.58.3)
+include code63/version0.58.3-quest3-pc-eye for both platforms. The PC code-only ZIP
+is for the in-game updater; fresh installations require the full setup ZIP.
+Quest 2 and Quest 3 share the original-signer APK. ADB startup and generated-HUD
+repairs are retained. Do not uninstall or clear app data. Shared-v0.58 gameplay,
+protocol3 and content fingerprint15070507204261208425 are unchanged.
+
+The PC intro sampler collision reproduced on RTX4060/610.88 and was corrected;
+216 GPU eye/intro cases and all16 retained scene diagnostics passed. Both Windows
+shells passed all9 installer groups and the signed GitHub APK passed13 suites.
+Physical headset installation/upgrade/save/gameplay, reporter621.01/VirtualDesktopXR,
+other GPU, WAN and headset performance remain untested. No original game assets,
+private source or signing keys are included. [Full notes and limits](RELEASE-NOTES-v0.58.3.md).
+
+
 ## v0.58.1 installer repair
 
 [Download v0.58.1](https://github.com/itssnotTristan/CastleMinerZVR-Updates/releases/tag/v0.58.1)
